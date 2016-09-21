@@ -11,6 +11,8 @@ body { padding-top: 70px; }
 }
 .chicas h1 {
 	color: white;
+	padding-top: 300px;
+	font-size: 3em;
 }
 #section-video {
 	margin-top: 60px;
@@ -33,4 +35,34 @@ iframe {
 .box-hackathon p {
 	text-align: left;
 	padding-right: 60px;
+}
+.made-photo {
+	width: 560px;
+	padding-top: 60px;
+}
+.box-made{
+	padding-top: 60px;
+
+}
+.box-made p {
+	text-align: left;
+}
+.box-made h1 {
+	
+}
+.box-form {
+	width: 560px;
+	padding-bottom: 60px;
+}
+.box-form  input, textarea {
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #0F7EFA;
+	color: white;
+	height: 100px;
+}
+footer p {
+	padding-top: 30px;
 }
