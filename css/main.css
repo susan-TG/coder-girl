@@ -1,0 +1,36 @@
+
+body { padding-top: 70px; }
+.chicas {
+	height: 1000px;
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.chicas p, h1 {
+	text-align: center;
+}
+.chicas h1 {
+	color: white;
+}
+#section-video {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.yellow {
+	background-color: yellow;
+	height: 500px;
+}
+iframe {
+	width: 560px;
+}
+.hackathon-photo {
+	width: 560px;
+	padding-top: 60px;
+}
+.box-hackathon {
+	padding-top: 60px;
+}
+.box-hackathon p {
+	text-align: left;
+	padding-right: 60px;
+}
