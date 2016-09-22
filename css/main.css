@@ -1,10 +1,12 @@
 
 body { padding-top: 70px; }
 .chicas {
-	height: 1000px;
+	height: 600px;
+	width: 100%;
     background-image: url(../img/home.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+   
 }
 .chicas p, h1 {
 	text-align: center;
@@ -18,12 +20,21 @@ body { padding-top: 70px; }
 	margin-top: 60px;
 	margin-bottom: 60px;
 }
+#section-video h1 {
+	font-size: 2em;
+}
+.docu h1 {
+	padding-top: 80px;
+	font-size: 2em;
+}
 .yellow {
 	background-color: yellow;
 	height: 500px;
 }
-iframe {
-	width: 560px;
+.embed-responsive-item {
+  position: relative;
+  width: 560px;
+  height: 480;
 }
 .hackathon-photo {
 	width: 560px;
@@ -42,13 +53,12 @@ iframe {
 }
 .box-made{
 	padding-top: 60px;
-
 }
 .box-made p {
 	text-align: left;
 }
 .box-made h1 {
-	
+	padding-bottom: 30px;
 }
 .box-form {
 	width: 560px;
@@ -57,7 +67,6 @@ iframe {
 .box-form  input, textarea {
 	margin-bottom: 10px;
 }
-
 footer {
 	background-color: #0F7EFA;
 	color: white;
@@ -65,4 +74,7 @@ footer {
 }
 footer p {
 	padding-top: 30px;
+}
+strong {
+	color: yellow;
 }
